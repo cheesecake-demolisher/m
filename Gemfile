@@ -1,8 +1,9 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.4.1"
-gem "jekyll-theme-cayman"
+gem "jekyll-remote-theme"
+gem "jekyll-seo-tag"
+
 group :jekyll_plugins do
-  gem "jekyll-feed"             # example plugin, if you want feeds
-  # gem "jekyll-remote-theme"   # you can remove or comment this out
+  gem "jekyll-feed"   # if you still want your RSS feed
 end
